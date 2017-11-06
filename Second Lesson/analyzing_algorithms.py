@@ -40,6 +40,6 @@ print(selection_sort(A))
 # this; since we see that the highest order must be n^2. Hence, our big-O value is going to be n^2. This is both best
 # case and worst case, since regardless we have to iterate through all the corresponding values.
 
-# Exercise 2.2-3
+# Exercise 2.2-4
 
-# 
+# See markdown.
