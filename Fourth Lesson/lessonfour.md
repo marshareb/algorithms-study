@@ -64,11 +64,11 @@ Finally, we know that when the algorithm terminates the smallest element of A[i.
 
 Before the first loop, we have that A[1] is clearly sorted, and so we're done.
 
-## Maintenance
+### Maintenance
 
 We now assume it holds for n, that is, A[1..n] is sorted. We then look at the next element, A[n+1]. By the prior loop invariant, we have that A[n+1] will be the smallest element in the list A[n+1...A.length] so that A[1..n+1] will be sorted. Hence, it holds for the next iteration.
 
-## Termination
+### Termination
 
 We see that when this terminates we have that the list will be sorted.
 
